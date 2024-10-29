@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;}
+    header {
+        background-color: #f8f005ee; /* Dark background color */
+        color: #050505; /* Light text color */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid black;
+        position: fixed;
+        width: 79.5%; /* Full width */
+        z-index: 1000;
+        left: 264px;
+    }    
+/* Style for header navigation links */
+header nav {
+    float: right;
+}
+header nav a {
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    margin-left: 20px; /* Spacing between links */
+    font-size: 18px; /* Font size */
+    position: relative; /* Required for dropdown */
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for dropdown */
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown absolutely */
+    background-color: #333; /* Dark background color */
+    min-width: 120px; /* Set minimum width */
+    z-index: 1; /* Ensure dropdown is above other elements */
+    top: 100%; /* Position dropdown below the header */
+    right: 0; /* Align dropdown to the right */
+    padding: 10px; /* Add padding */
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    display: block; /* Display as block */
+    margin-top: 5px; /* Add margin between links */
+}
+
+/* Style for dropdown links on hover */
+.dropdown-content a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for sidebar navigation */
+.sidebar {
+    height: 100%; /* Full height */
+    position: fixed; /* Fixed position */
+    top: 0; /* Top position */
+    left: 0; /* Left position */
+    padding-top: 0px; /* Padding top to leave space for header */
+    width: 7cm  ;
+    background-color: #3308f4;
+    color: #fff;
+    text-align: center;
+    border:2px solid black;
+    flex-direction: column; 
+    padding-bottom: 10px;
+    border: 1px solid black;
+    position: fixed;
+}
+
+/* Style for sidebar navigation links */
+.sidebar nav a {
+    display: block; /* Display as block */
+    padding: 10px 20px; /* Padding */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underlines */
+ }
+
+.sidebar nav a:hover {
+    background-color: white; /* Background color on hover */
+    color: #050505;
+    border: 2px solid black;
+}
+
+.logo {
+    background-color: #d71717;
+    color: #fff;
+    height:5cm;
+    margin-top: 0%;
+    border:1px solid black;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%; 
+    overflow: hidden;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+  }
+  .logo-text {
+    font-size: 15;
+    font-style: italic;
+  }
+  aside{
+    background-color: #d71717; /* Dark background color */
+      height: 100%;
+      position: fixed; /* Fixed position */
+      top:42px; /* Top position */
+      left: 1258px; /* Left position */
+      padding-top: 42px; /* Padding top to leave space for header */
+      width: 15px  ;
+      flex-direction: column;
+  }
+  .fa-solid i {
+    margin-right: 10px;
+}
+.fa-house{
+margin-left: 0cm;
+margin-right: 20px;
+}
+.fa-file-pen{
+    margin-left:30px;
+    margin-right: 20px;
+}
+.fa-file-circle-check{
+    margin-left:15px;
+    margin-right: 20px;
+}
+.fa-users{
+    margin-left:1px;
+    margin-right: 20px;
+}
+.fa-users-slash{
+    margin-left: 1px;
+    margin-right: 20px;
+
+}
+h3{
+    padding-left: 8cm;
+    font-style: italic;
+    text-decoration:  underline;
+    padding-top: 60px;
+    padding-bottom: 3cm;
+}
+    .search-bar {
+        position: absolute;
+        top: 150px;
+        right: 35px;
+        padding: 7px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        font-style: italic;
+}/* Style for the table */
+.table-container {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    margin-left: 284px;
+    width: 75%; /* Make the table expand to fill the available width */
+    border-collapse: collapse;
+    padding-top: 1px;
+}
+/* Style for the table */
+table {
+    width: 100%; /* Adjust the width of the table */
+    border-collapse: collapse;
+    margin-bottom: 1px; /* Add margin to separate the table and the button */
+    margin-top: 0%;
+}
+
+/* Style for table header */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.edit-btn{
+    background-color: #3308f4;
+    color: #fff;
+    padding: 4px;
+    border: 1px;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.delete-btn{
+    background-color: #d71717;
+    color: #fff;
+    padding: 4px;
+    border: 1px;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Style for the "Add New Candidate" button */
+.add-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color:white;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-right:34px;
+}
+.btn i {
+    vertical-align: middle;
+}
+
+.add-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 7px; 
+    background-color: rgb(3, 3, 138);
+    color: white;
+    position: fixed; 
+    bottom: 0; 
+    width: 78.2%;
+    margin-left: 264px;
+}

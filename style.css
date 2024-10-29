@@ -1,0 +1,93 @@
+/*style.css*/
+/* body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	line-height: 1.5;
+	min-height: 100vh;
+	background: #f3f3f3;
+	flex-direction: column;
+	margin: 0;
+} */
+body {
+	background-image: url(bckgrnd.png); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Set a default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Make the background cover the entire viewport height */
+    display: flex; /* Use flexbox to center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.main {
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 0 20px rgba(38, 31, 31, 0.2);
+	padding: 40px;
+	transition: transform 0.2s;
+	max-width: 380px;
+	text-align: center;
+	border: 2px solid black;
+}
+.logo {
+    width: 120px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: -10px; /* Add some space below the logo */
+}
+
+h2 {
+	color:black; 
+	font-style: italic;
+}
+
+label {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: black    ;
+	font-weight: bold;
+}
+
+
+input {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+#forgot-password-link {
+    text-decoration: underline;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+}
+
+
+button {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: navy;
+	width: 100%;
+	font-size: 16px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border: 2px;
+}

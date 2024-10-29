@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;}
+  header {
+      background-color: #f8f005ee; /* Dark background color */
+      color: #050505; /* Light text color */
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 1px solid black;
+      position: fixed;
+      width: 79.5%; /* Full width */
+      z-index: 1000;
+      left: 264px;
+  }    
+/* Style for header navigation links */
+header nav {
+  float: right;
+}
+header nav a {
+  color: black; /* Text color */
+  text-decoration: none; /* Remove underlines */
+  margin-left: 20px; /* Spacing between links */
+  font-size: 18px; /* Font size */
+  position: relative; /* Required for dropdown */
+  margin-right: 15px;
+}
+
+header nav a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for dropdown */
+.dropdown-content {
+  display: none; /* Hide dropdown by default */
+  position: absolute; /* Position dropdown absolutely */
+  background-color: #333; /* Dark background color */
+  min-width: 120px; /* Set minimum width */
+  z-index: 1; /* Ensure dropdown is above other elements */
+  top: 100%; /* Position dropdown below the header */
+  right: 0; /* Align dropdown to the right */
+  padding: 10px; /* Add padding */
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underlines */
+  display: block; /* Display as block */
+  margin-top: 5px; /* Add margin between links */
+}
+
+/* Style for dropdown links on hover */
+.dropdown-content a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for sidebar navigation */
+.sidebar {
+  height: 100%; /* Full height */
+  position: fixed; /* Fixed position */
+  top: 0; /* Top position */
+  left: 0; /* Left position */
+  padding-top: 0px; /* Padding top to leave space for header */
+  width: 7cm  ;
+  background-color: #3308f4;
+  color: #fff;
+  text-align: center;
+  border:2px solid black;
+  flex-direction: column; 
+  padding-bottom: 10px;
+  border: 1px solid black;
+  position: fixed;
+}
+
+/* Style for sidebar navigation links */
+.sidebar nav a {
+  display: block; /* Display as block */
+  padding: 10px 20px; /* Padding */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underlines */
+}
+
+.sidebar nav a:hover {
+  background-color: white; /* Background color on hover */
+  color: #050505;
+  border: 2px solid black;
+}
+.logo {
+  background-color: #d71717;
+  color: #fff;
+  height:5cm;
+  margin-top: 0%;
+  border:1px solid black;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  border-radius: 100%; 
+  overflow: hidden;
+  padding-top: 20px ;
+  padding-bottom: 10px;
+}
+.logo-text {
+  font-size: 15;
+  font-style: italic;
+  
+}
+.fa-solid i {
+  margin-right: 10px;
+}
+.fa-house{
+margin-left: 0cm;
+margin-right: 20px;
+}
+.fa-file-pen{
+  margin-left:30px;
+  margin-right: 20px;
+}
+.fa-file-circle-check{
+  margin-left:15px;
+  margin-right: 20px;
+}
+.fa-users{
+  margin-left:1px;
+  margin-right: 20px;
+}
+.fa-users-slash{
+  margin-left: 1px;
+  margin-right: 20px;
+
+}
+* {box-sizing: border-box}
+.slideshow-container {
+  max-width: 960px;
+  position: relative;
+  margin-left: 148px;
+}
+/* Slideshow container */
+.slideshow-container {
+/* max-width: 1000px;
+position: relative;
+margin: auto; */
+position: relative;
+padding-top:60px;
+      width: 78%; /* Full width */
+      left: 130px;
+      padding-left: .2cm;
+      height: 15cm;
+}
+.slideshow-container img{
+  height: 13cm;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: black;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgb(243, 243, 34);
+}
+
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+height: 10cm;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.dots{
+  padding-left: 20cm;
+  padding-bottom: 2cm;
+}
+.active, .dot:hover {
+background-color: #717171;
+
+}
+/* Fading animation */
+/* .fade {
+animation-name: fade;
+animation-duration: 1.5s;
+} */
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.prev, .next,.text {font-size: 11px}
+}

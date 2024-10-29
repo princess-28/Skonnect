@@ -1,0 +1,662 @@
+.modal .logo {
+    background-color: #d71717;
+    color: #fff;
+    height:5cm;
+    margin-top: 0%;
+    border:1px solid black;
+  }
+  
+  .modal .logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 100%; 
+    overflow: hidden;
+    padding-top: 20px ;
+    padding-bottom: 10px;
+  }
+  .modal .logo-text {
+    font-size: 15;
+    font-style: italic;
+  }
+
+.modal .header-text {
+    color: black;
+    padding: 10px; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+    position: relative; /* Relative positioning for logos */
+}
+
+.modal .logo-left {
+    position: absolute; /* Absolute positioning for logos */
+/*    top: 50%; /* Align to center vertically */*/
+/*    transform: translateY(-50%); /* Adjust vertical position */*/
+}
+
+.modal .logo-left {
+/*    left: 10cm; /* Distance from left edge */*/
+/*    top: 4.modal .5cm;*/
+}
+.modal .logo-left img{
+  width: 150px;
+  height: auto;
+  border-radius: 40%;
+  overflow: hidden;
+  padding-top: 20px;
+}
+.modal .log{
+    width: 120px;
+    height: auto;
+    padding-left: 1cm;
+    flex: 0 0 auto;
+  }
+  .modal .log img {
+    width: 120px;
+    height: auto;
+    padding-left: 1cm;
+    flex: 0 0 auto;
+  }
+  .modal .cer-text {
+    color: black;
+    margin-top: -0.modal .5cm;
+    text-align: center; /* Center align text */
+    position: top; /* Relative positioning for logos */
+    text-decoration: underline;
+  }
+  .modal .app-text{
+    color: black;
+    margin-top:7px;
+    text-align: center; /* Center align text */
+    text-decoration: underline ;
+    font-style: italic;
+  }
+  .modal .nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modal .nav-links li {
+    padding: 10px;
+  }
+  
+  .modal .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .modal .content {
+    flex: 1;
+    padding: 30px;
+  }
+   .modal p{
+    margin-left: 10px;
+    align-self: flex-start;   
+    flex: 1; 
+  }
+  .modal .underline {
+    display: inline-block; /* Display as inline-block to wrap content */
+    border-bottom: 1px solid black; /* Underline style */
+    padding-bottom: 2px; /* Adjust padding bottom as needed */
+}
+
+/* Adjust the appearance of the underlines when they are empty */
+.modal .underline[contenteditable="true"]:empty::before {
+    content: "________________"; /* Placeholder text */
+    color: white; /* Placeholder text color */
+}
+
+/* Style for the background of the editable area */
+.modal .editable-area {
+    padding: 2px; /* Add padding to improve visual appearance */
+}
+  .modal   h1 {
+    text-align: center;
+  }
+  .modal   h2 {
+    text-align: center;
+  }
+  .modal .header-text{
+    text-align: center;
+  }
+  .modal  #drop-area{
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #040404;
+    position: absolute;
+    top: 2cm;
+    right: 50px;
+}
+  .modal #img-view{
+    width: 100%;
+    height: 100%;
+    background: #f7f8ff;
+    background-position: center;
+    background-size: cover;
+}
+  .modal #img-view img{
+    width: 50px;
+    height: 50px;
+}
+  .modal #img-view span{
+    display: block;
+    font-size: 12px;
+    color: #777;
+        }
+
+
+
+  .modal #img-view p{
+    margin: 0 5px;
+}
+
+      .modal .form-container {
+          padding: 20px; /* Add padding */
+          background-color: white; /* Light background color */
+          border:2px solid black 
+  
+      }
+
+      /* Style for the form */
+        .modal form {
+          margin: 0; /* Reset margin */
+      }
+
+        .modal form label {
+          display: block; /* Display labels as block elements */
+          margin-bottom: 10px; /* Add space between labels */
+      }
+
+        .modal form input[type="text"],
+        .modal form textarea {
+          width: calc(100% - 20px); /* Full width input minus padding */
+          padding: 5px; /* Add padding */
+          margin-bottom: 10px; /* Add space between inputs */
+      }
+
+  .modal label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+    .modal input[type="text"],
+    .modal input[type="number"],
+    .modal textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  } 
+  
+
+  .modal .drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+    .modal #preview {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .modal .image-preview {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .modal .image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+.modal .gend-group {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0cm;
+  padding-right: 1cm;
+}
+
+.modal .gend-group label {
+  flex: 1;
+  padding-left: 1cm;
+
+}
+.modal .age-group{
+  display: flex;
+  padding-right: 0cm;
+  padding-left: 1cm;
+  justify-content: space-between;
+}
+.modal .age-group label {
+  flex: 1;
+  padding-right: 0cm;
+  padding-left: 0cm;
+  padding-top: 7px;
+}
+  .modal .age-group input {
+    flex: 1;
+    padding-left: 0cm;
+    padding-right: 0;
+    margin-right: 1cm;
+  }
+  .modal .form-group {
+    margin-top: 12px;
+  }
+  .modal .names-group label{
+    margin-top: 15px;
+    padding-left: 1cm;
+  }
+  .modal .last-group {
+    padding-left: 2cm;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1cm;
+  
+  }
+  .modal .last-group label {
+    flex: 2;
+}
+  .modal .last-group input {
+    flex: 10;
+    padding-left: 2cm;
+}
+  .modal .first-group {
+    padding-left: 2cm;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-right: 1cm; 
+}
+  .modal .first-group label {
+    flex: 2;
+}
+  .modal .first-group input {
+    flex: 10;
+    padding-left: 2cm;
+}
+  .modal .middle-group {
+    padding-left: 2cm;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding-right: 1cm;
+}
+  .modal .middle-group label {
+    flex: 2;
+}
+  .modal .middle-group input {
+    flex: 10;
+    padding-left: 2cm;
+}
+  .modal .nick-group {
+    padding-left: 1cm;
+    padding-right: 90px;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+  .modal .nick-group label {
+    flex: 2;
+}
+  .modal .nick-group h6{
+    margin-bottom: 15px;
+}
+  .modal .nick-group input {
+    flex: 1;
+    margin-left: 2cm;
+}
+.modal .birth-group label{
+  margin-top: 15px;
+  padding-left: 1cm;
+}
+.modal .province-group {
+    padding-left: 2cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+}
+.modal .province-group label {
+  flex: 2;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+  .modal .province-group input {
+    flex: 10; 
+    margin-left: 30px;
+  }   
+  
+  .modal .city-group {
+    padding-left: 2cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .city-group label {
+    flex: 2;
+    padding-left: 1cm;
+    padding-right: 8px;
+  }
+    .modal .city-group input{
+      flex: 10; 
+      padding-left: 5px;
+      margin-left: 15px;
+    }   
+    .modal .prov-group label {
+      flex: 2;
+      margin-top: 7px;
+    }
+      .modal .prov-group input {
+        flex: 1;
+        padding-left: 13cm;
+      }
+    .modal .civil-status-group{
+      padding-left: 1cm;
+      margin-top: 15px;
+    }
+    .modal .civil-group {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 8cm;
+  }
+.modal .checkbox-group {
+    display: flex;
+}
+
+.modal .checkbox-left {
+    flex: 1;
+}
+
+.modal .checkbox-right {
+    flex: 1;
+    padding-left: 1cm;
+}
+.modal .spouse-group {
+  margin-top: 15px;
+  padding-left: 1cm;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 1cm;
+  padding-right: 1cm;
+
+}
+.modal .spouse-group label {
+  flex: 1;
+  padding-top: 7px;
+}
+.modal .spouse-group input {
+  flex: 2;
+}
+.modal .add-group label{
+  margin-top: 15px;
+  padding-left: 1cm;
+  }
+.modal .prov-group {
+  padding-left: 2cm;
+  padding-right: 1cm;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  display: flex;
+  justify-content: space-between;
+}
+.modal .prov-group label {
+    flex: 2;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+}
+  .modal .prov-group input {
+    flex: 10; 
+    padding-left: 5px;
+    margin-left: 15px;
+  }   
+  .modal .muni-group {
+    padding-left: 2cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .muni-group label {
+    flex: 2;
+    padding-left: 1cm;
+    padding-right: 8px;
+    margin-top: 15px;
+  }
+  .modal .muni-group input {
+    flex: 10; 
+    padding-left: 5px;  
+  }
+  .modal .bar-group {
+    padding-left: 2cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .bar-group label {
+    flex: 2;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+  }
+  .modal .bar-group input {
+    flex: 10; 
+    padding-left: 5px;
+    margin-left: 15px;
+    }  
+    .modal .sub-group {
+      padding-left: 2cm;
+     padding-right: 1cm;
+      margin-top: 15px;
+      margin-bottom: 15px; 
+     display: flex;
+      justify-content: space-between;
+      flex: 1;
+    }
+    .modal .sub-group label {
+      padding-left: 1cm;
+      margin-top: 15px;
+    }
+    .modal .sub-group input {
+      flex: 5; 
+      padding-left: 5px;  
+      margin-left:1cm;
+    } 
+    .modal .occup-group {
+      padding-left: 1cm;
+      padding-right: 2cm;
+      margin-top: 15px;
+      margin-bottom: 15px; 
+      justify-content: space-between;
+      margin-right:20px;
+  }
+    .modal .occup-group label {
+      flex: 5;
+      margin-top: 15px;
+      display: block;
+      margin-bottom: 5px;
+  }
+    .modal .occup-group input {
+      flex: 10;
+      margin-left: 2cm;
+  }
+  .modal .elec-group {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    justify-content: space-between;
+    margin-right: 1.modal .5cm;
+}
+  .modal .elec-group label {
+    flex: 5;
+    margin-top: 15px;
+}
+  .modal .elec-group input {
+    flex: 10;
+    margin-left: 2cm;
+}
+.modal .res-group{
+  padding-left: 1cm;
+}
+.modal .residency-group {
+  padding-left: 2cm;
+  padding-right: 3cm;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  display: flex;
+  justify-content: space-between;
+}
+.modal .residency-group label{
+  padding-right: 60px;
+  padding-left: 2px;
+}
+.modal .residency-group select{
+  padding-right: 2cm;
+}
+.modal .member-group {
+  padding-right: 1cm;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  justify-content: space-between;
+}
+.modal .member-group label {
+    flex: 5;
+    margin-top: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+.modal .member-group input {
+    flex: 10;
+    padding-right: 1cm;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+.modal .prec-group {
+  padding-left: 1cm;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  display: flex;
+  justify-content: space-between;
+}
+.modal .prec-group label {
+    flex: 2;
+    padding-left: 1cm;
+    margin-top: 15px;
+}
+  .modal .prec-group input {
+    flex: 10; 
+    padding-left: 5px;
+    margin-left: 50px;
+  }   
+  .modal .bars-group {
+    padding-left: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .bars-group label {
+    flex: 2;
+    padding-left: 1cm;
+    padding-right: 8px;
+    margin-top: 15px;
+  }
+  .modal .bars-group input {
+    flex: 10; 
+    padding-left: 5px;  
+    margin-left: 40px;
+  }
+  .modal .cit-group {
+    padding-left: 1cm;
+    padding-right: 1cm;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal .cit-group label {
+    flex: 2;
+    padding-left: 1cm;
+    margin-top: 15px;
+  }
+  .modal .cit-group input {
+    flex: 10; 
+    margin-left: 3px;
+    }  
+    .modal .pro-group {
+      padding-left: 1cm;
+     padding-right: 1cm;
+      margin-top: 15px;
+      margin-bottom: 15px; 
+      display: flex;
+      justify-content: space-between;
+    }
+    .modal .pro-group label {
+      flex: 3.modal .5cm;
+      padding-left: 1cm;
+      margin-top: 15px;
+    }
+    .modal .pro-group input {
+      flex: 10;  
+      margin-left: 10px;
+    } 
+    .modal .stated-group{
+      padding-right: 1cm;
+      margin-left: 13px;
+    }
+    .modal .stated-group input{
+      flex:5cm;
+      margin-left: 1cm;
+      padding-right: 2cm;
+      margin-bottom: 1cm;
+      margin-top: 10px;
+      }
+      .modal .can-container {
+        display: flex; /* Use flexbox layout */
+        max-width: 100x;
+        border-radius: 5px;
+        margin-left: 19cm;
+        margin-top: 20px;
+        margin-bottom: 1cm;
+
+    }
+
+    /* Style for buttons */
+    .modal .btn {
+        border:2px solid black;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+
+    /* Style for submit button */
+    .modal .submit-btn {
+        background-color: #0c13de;
+        color: white;
+        margin-right:15px; /* Add margin to separate buttons */
+    }
+
+    /* Style for cancel button */
+    .modal .cancel-btn {
+        background-color: #e21d0e;
+        color: white;
+        margin-right:20px;
+    }
+
+    /* Style for button icons */
+    .modal .btn i {
+        margin-right: 10px;
+    }
